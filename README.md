@@ -1,2 +1,0 @@
-# DiceGame
-Multiplayer DiceGame
