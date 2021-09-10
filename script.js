@@ -55,7 +55,7 @@ holdBtn.addEventListener('click', function () {
     document.getElementById(`current--${activePlayer0}`).textContent = 0;
     console.log();
 
-    if (scores[0] >= 10) {
+    if (scores[0] >= 100) {
       playerEl0.classList.add('name');
       playerEl0.classList.add('player--winner');
       dice.classList.add('hidden');
