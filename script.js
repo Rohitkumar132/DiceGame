@@ -62,7 +62,7 @@ holdBtn.addEventListener('click', function () {
       playerActive = false;
       // player = activePlayer0 = true ? 0 : 1 ;
       document.querySelector('.player--active').classList.add('player--winner');
-    } else if (scores[1] >= 10) {
+    } else if (scores[1] >= 100) {
       playerActive = false;
       dice.classList.add('hidden');
       // player = activePlayer0 = true ? 1 : 0 ;
